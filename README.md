@@ -23,6 +23,8 @@ In both cases the boogie board should not be mounted. Otherwise the scripts will
 
 Your need root permissions to run the scripts in python.
 
+I recommend Xournal on linux as a writting tool.
+
 # Bugs
 
 # Debian / Ubuntu changes
