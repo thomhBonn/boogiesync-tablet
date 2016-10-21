@@ -21,6 +21,9 @@ For bluetooth, it should scan for your device so simply running it should work. 
 
 # Bugs
 
+# Debian / Ubuntu changes
+There are differences in the evdev Package between ubuntu and debian! A different syntax in the call of absolute values in evdev is needed!
+
 ## PyUSB
 
 - Haven't quite worked out handshaking.  You may need to let the device connect to your phone to initialise prior to plugging in and running the usb app.
