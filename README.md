@@ -19,6 +19,10 @@ For the USB app, plug in the device and run the app. If you get timeout errors s
 
 For bluetooth, it should scan for your device so simply running it should work.  If not, run blue.py with a specific address (e.g., ./blue.py 00:00:00:00:00:00) which you can discover using "hcitool scan".
 
+In both cases the boogie board should not be mounted. Otherwise the scripts will not work.
+
+Your need root permissions to run the scripts in python.
+
 # Bugs
 
 # Debian / Ubuntu changes
